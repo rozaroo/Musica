@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8692a46617f14408c5ed61e4458da4, type: 3}
+  m_Name: 3045B249-E340-4BB9-A700-C1BF507EC93C
+  m_EditorClassIdentifier: 
+  objectName: Climate_Jungle_Switch
+  id: 971377033
+  guid: 3045B249-E340-4BB9-A700-C1BF507EC93C
