@@ -58,21 +58,6 @@ namespace StarterAssets
 
         private const float _threshold = 0.01f;
 
-        // --------------------------------------------------
-        // Wwise Footsteps Integration
-        // --------------------------------------------------
-        [Header("Wwise Footsteps")]
-        public AK.Wwise.Event FootstepEvent;
-        public AK.Wwise.Switch GrassSwitch;
-        public AK.Wwise.Switch GravelSwitch;
-        public AK.Wwise.Switch MudSwitch;
-
-        public float stepInterval = 0.4f;
-        private float stepTimer = 0f;
-
-        public enum SurfaceType { Grass, Gravel, Mud }
-        public SurfaceType currentSurface = SurfaceType.Grass;
-
         private bool IsCurrentDeviceMouse
         {
             get
@@ -87,16 +72,11 @@ namespace StarterAssets
 
         private void Awake()
         {
-            if (_mainCamera == null)
-            {
-                _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
-            }
+            if (_mainCamera == null) _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         }
 
         private void Start()
         {
-            stepTimer = 0f;
-
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
 
@@ -113,7 +93,7 @@ namespace StarterAssets
         {
             JumpAndGravity();
             GroundedCheck();
-            Move();  // pasos incluidos aquí
+            Move();  
         }
 
         private void LateUpdate()
@@ -170,10 +150,8 @@ namespace StarterAssets
 
                 _speed = Mathf.Round(_speed * 1000f) / 1000f;
             }
-            else
-            {
-                _speed = targetSpeed;
-            }
+            else _speed = targetSpeed;
+            
 
             Vector3 inputDirection =
                 new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
@@ -188,38 +166,7 @@ namespace StarterAssets
             _controller.Move(
                 inputDirection.normalized * (_speed * Time.deltaTime) +
                 new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime
-            );
-
-            // ----------------------------------------------------
-            // FOOTSTEPS (correcto y funcionando)
-            // ----------------------------------------------------
-            if (Grounded && _speed > 0.1f)
-            {
-                stepTimer -= Time.deltaTime;
-
-                if (stepTimer <= 0f)
-                {
-                    switch (currentSurface)
-                    {
-                        case SurfaceType.Grass:
-                            GrassSwitch?.SetValue(gameObject);
-                            break;
-                        case SurfaceType.Gravel:
-                            GravelSwitch?.SetValue(gameObject);
-                            break;
-                        case SurfaceType.Mud:
-                            MudSwitch?.SetValue(gameObject);
-                            break;
-                    }
-
-                    FootstepEvent?.Post(gameObject);
-
-                    stepTimer = stepInterval;
-
-                    if (_input.sprint)
-                        stepTimer *= 0.65f;
-                }
-            }
+            );  
         }
 
         private void JumpAndGravity()
