@@ -7,7 +7,7 @@ public class MusicStateController : MonoBehaviour
     [Header("Wwise States")]
     public AK.Wwise.State ExploringState;
     public AK.Wwise.State InBattleState;
-
+    
     private void Start()
     {
         // Reproducimos la BGM al comenzar
