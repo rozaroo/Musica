@@ -3,19 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController_Rigidbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FootstepsWwiseController_Rigidbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FootstepsWwiseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\MusicStateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MusicStateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\MusicOnOff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MusicOnOff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\AmbienceRTIPCController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\HeartbeatRTPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HeartbeatRTPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController_Rigidbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FootstepsWwiseController_Rigidbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,95 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FootstepsWwiseController.cs",
-              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController.cs",
-              "RelativeDocumentMoniker": "FootstepsWwiseController.cs",
-              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController.cs",
-              "RelativeToolTip": "FootstepsWwiseController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MusicOnOff.cs",
+              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\MusicOnOff.cs",
+              "RelativeDocumentMoniker": "MusicOnOff.cs",
+              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\MusicOnOff.cs",
+              "RelativeToolTip": "MusicOnOff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:37:19.71Z",
+              "WhenOpened": "2025-12-05T19:47:29.894Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AmbienceRTIPCController.cs",
+              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\AmbienceRTIPCController.cs",
+              "RelativeDocumentMoniker": "AmbienceRTIPCController.cs",
+              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\AmbienceRTIPCController.cs",
+              "RelativeToolTip": "AmbienceRTIPCController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:56:22.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeartbeatRTPC.cs",
+              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\HeartbeatRTPC.cs",
+              "RelativeDocumentMoniker": "HeartbeatRTPC.cs",
+              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\HeartbeatRTPC.cs",
+              "RelativeToolTip": "HeartbeatRTPC.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T20:11:55.278Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FootstepsWwiseController_Rigidbody.cs",
-              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController_Rigidbody.cs",
-              "RelativeDocumentMoniker": "FootstepsWwiseController_Rigidbody.cs",
-              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController_Rigidbody.cs",
-              "RelativeToolTip": "FootstepsWwiseController_Rigidbody.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:37:00.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MusicStateController.cs",
               "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\MusicStateController.cs",
               "RelativeDocumentMoniker": "MusicStateController.cs",
               "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\MusicStateController.cs",
               "RelativeToolTip": "MusicStateController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T21:44:11.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FirstPersonController.cs",
-              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "RelativeDocumentMoniker": "..\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "RelativeToolTip": "..\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T21:04:01.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AmbienceRTIPCController.cs",
-              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\AmbienceRTIPCController.cs",
-              "RelativeDocumentMoniker": "AmbienceRTIPCController.cs",
-              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\AmbienceRTIPCController.cs",
-              "RelativeToolTip": "AmbienceRTIPCController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T20:56:22.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HeartbeatRTPC.cs",
-              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\HeartbeatRTPC.cs",
-              "RelativeDocumentMoniker": "HeartbeatRTPC.cs",
-              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\HeartbeatRTPC.cs",
-              "RelativeToolTip": "HeartbeatRTPC.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwBcAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T20:11:55.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "WeatherSwitcher.cs",
               "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\WeatherSwitcher.cs",
               "RelativeDocumentMoniker": "WeatherSwitcher.cs",
               "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\WeatherSwitcher.cs",
               "RelativeToolTip": "WeatherSwitcher.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T20:02:33.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FootstepsWwiseController_Rigidbody.cs",
+              "DocumentMoniker": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController_Rigidbody.cs",
+              "RelativeDocumentMoniker": "FootstepsWwiseController_Rigidbody.cs",
+              "ToolTip": "C:\\Users\\Noxi-PC\\Documents\\GitHub\\Musica\\Assets\\Scripts\\FootstepsWwiseController_Rigidbody.cs",
+              "RelativeToolTip": "FootstepsWwiseController_Rigidbody.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:37:00.206Z"
             }
           ]
         }

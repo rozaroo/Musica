@@ -749,8 +749,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 46e53b22c4e03c14986e6d162a32d6df, type: 2}
-  birdIntensity: 100
-  windIntensity: 0
+  birdIntensity: 50
+  windIntensity: 50
+  decreaseKey: 114
+  increaseKey: 116
+  changeSpeed: 2
 --- !u!4 &339368689
 Transform:
   m_ObjectHideFlags: 0
@@ -1614,7 +1617,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2203411e787da76408cc26f45339e1c2, type: 2}
-  rainIntensity: 0
+  rainIntensity: 50
+  decreaseKey: 105
+  increaseKey: 111
+  changeSpeed: 2
 --- !u!4 &566425528
 Transform:
   m_ObjectHideFlags: 0
@@ -2930,7 +2936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d863c1c79b75db488d3994dadfd2c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c958ca0ea
+  triggerList: f7e1664c
   useOtherObject: 0
   data:
     idInternal: 0

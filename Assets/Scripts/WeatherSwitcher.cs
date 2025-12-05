@@ -15,6 +15,11 @@ public class WeatherSwitcher : MonoBehaviour
 
     private int stateIndex = 0;
 
+    [Header("Input keys (configurables)")]
+    public KeyCode decreaseKey = KeyCode.I; // tecla para restar (mantener)
+    public KeyCode increaseKey = KeyCode.O; // tecla para sumar (mantener)
+    public float changeSpeed = 2f;         // cantidad por segundo que suma/resta
+
     void Start()
     {
         rainIntensity = 50f; // Valor inicial
@@ -27,6 +32,11 @@ public class WeatherSwitcher : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C)) ChangeWeather();
         // Enviar intensidad SOLO si estamos en estado Rain
         if (stateIndex == 1) RainIntensityRTPC.SetValue(gameObject, rainIntensity);
+        // ------ CONTROL DE RAIN CON TECLAS ------
+        if (Input.GetKey(decreaseKey)) rainIntensity -= changeSpeed * Time.deltaTime;
+        if (Input.GetKey(increaseKey)) rainIntensity += changeSpeed * Time.deltaTime;
+        // Limitar entre 0 y 100
+        rainIntensity = Mathf.Clamp(rainIntensity, 0, 100);
     }
     void ChangeWeather()
     {
